@@ -2,7 +2,7 @@
 \alias{rpac}
 \docType{package}
 \title{
-This package lets you visualize labelled data.
+Visualize labelled data
 }
 \description{
 You can install and use this package by doing the following:
@@ -24,7 +24,7 @@ X is a matrix of n rows of samples, and m columns of features of these samples. 
 
 toplot is an n by m matrix that plotlPCA uses to produce its plot, but is returned directly by lPCA. The rows are samples, the columns are the new features, where the first feature is the most informative. 
 
-V is an m by m matrix that shows how to transform from the regular basis of vectors to the basis where the PCA is plotted. X %*% V == toplot.
+V is an m by m matrix that shows how to transform from the regular basis of vectors to the basis where the PCA is plotted.
 
 }
 \details{
@@ -51,6 +51,9 @@ r <- lPCA(X,Y)
 r$V
 r$toplot
 plot(r$toplot[,1],r$toplot[,2],col=Y)
+
+#note that 
+X %*% V == toplot
 
 #option 2
 plotlPCA(X,Y,...) #the extra parameters are passed to plot
