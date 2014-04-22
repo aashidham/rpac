@@ -1,2 +1,3 @@
 import(geigen)
+export(lPCA)
 export(plotlPCA)
