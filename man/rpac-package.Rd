@@ -53,7 +53,7 @@ r$toplot
 plot(r$toplot[,1],r$toplot[,2],col=Y)
 
 #note that 
-X %*% V == toplot
+X * V == toplot
 
 #option 2
 plotlPCA(X,Y,...) #the extra parameters are passed to plot
