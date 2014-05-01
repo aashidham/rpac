@@ -29,7 +29,7 @@ B <- t(X) %*% X
 V <- geigen(A,B)$vectors
 V <- V[,ncol(V):1]
 toplot <- X %*% V
-output <- list("V"=V, "toplot"=toplot)
+output <- list("V"=V, "toplot"=toplot,"L"=L)
 return(output)
 }
 
