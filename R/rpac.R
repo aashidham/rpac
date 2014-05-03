@@ -1,6 +1,6 @@
 lPCA <- function(X,Y) {
-#X <- as.matrix(X)
-X <- scale(X)
+X <- as.matrix(X)
+#X <- scale(X)
 L <- matrix(-1,nrow(X),nrow(X))
 for (i in 1:nrow(L))
 {
