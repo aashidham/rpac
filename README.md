@@ -1,7 +1,11 @@
 rpac
 ====
 
-This is an R package for performing labelled PCA. Did you ever want to visualize high-dimensional data? If the data is unlabelled, the answer is simple: use [PCA](http://en.wikipedia.org/wiki/Principal_component_analysis). But what if it isn't labelled? Labelled PCA to the rescue!
+This is an R package for performing labelled PCA. Did you ever want to visualize high-dimensional data? If the data is unlabelled, the answer is simple: use [PCA](http://en.wikipedia.org/wiki/Principal_component_analysis). 
+
+But what if you have labelled high-dimensional data? One of the first things you might want to do is check if it is classifiable at all. Labelled PCA shows whether a dataset is separable in the first place. If the dataset is not separable, no matter how fancy your machine learning tools are, you won't find much success in building a classifer. 
+
+The labelled PCA method computes a linear transformation of the data that maximizes the pairwise distance between points in different labelled classes of the data while maintaining the constraint that the transformed data are orthogonal to each other. By examining the labelled classes of the clusters that emerge in the transformed data, you can clearly see whether or not the dataset is seperable.
 
 To install:
 
