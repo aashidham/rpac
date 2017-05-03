@@ -38,7 +38,7 @@ plotlPCA(X,Y)
 pca = prcomp(X)
 plot(pca$x[,1],pca$x[,2],col=Y) 
 ```
-Output of the above. The first image is labelled PCA, the second is normal PCA. The colored clusters are much better in the first image.
+Output of the above. The first image is labelled PCA, the second is normal PCA. The colored clusters are easily observed in the first image, giving evidence that seperability is possible. The second image, on the other hand, does not make clear whether the data is seperable, since it is transforming the data to maximize pairwise distances regardless of class.
 
 ![Labelled PCA](https://aashidham.github.io/rpac_assets/new.png)
 ![Unlabelled PCA](https://aashidham.github.io/rpac_assets/old.png)
