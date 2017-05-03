@@ -19,11 +19,11 @@ Examples of use (code):
 library(RCurl)
 library(rpac)
 
-X <- getURL("http://stanford.edu/~ashidham/X_sample.csv")
+X <- getURL("https://aashidham.github.io/rpac_assets/X_sample.csv")
 X <- read.csv(textConnection(X))
 X <- data.matrix(X)
 
-Y <- getURL("http://stanford.edu/~ashidham/Y_sample.csv")
+Y <- getURL("https://aashidham.github.io/rpac_assets/Y_sample.csv")
 Y <- read.csv(textConnection(Y))
 Y <- data.matrix(Y)
 
@@ -36,8 +36,8 @@ plot(pca$x[,1],pca$x[,2],col=Y)
 ```
 Output of the above. The first image is labelled PCA, the second is normal PCA. The colored clusters are much better in the first image.
 
-![Labelled PCA](http://stanford.edu/~ashidham/new.png)
-![Unlabelled PCA](http://stanford.edu/~ashidham/old.png)
+![Labelled PCA](https://aashidham.github.io/rpac_assets/new.png)
+![Unlabelled PCA](https://aashidham.github.io/rpac_assets/old.png)
 
 
 Details
