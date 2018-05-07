@@ -55,3 +55,12 @@ you can use for your own visualizations.
 This package needs two inputs from you: X and Y.
 
 X is a matrix of n rows of samples, and m columns of features of these samples. Y is n rows by 1 column of labels (say 1 for some group, 2 for another, etc.). X and Y should be numerical matrices without any NAs. **It is really important that n > m for meaningful results.**
+
+Citations
+-------------
+Adapted from   Koren, Y., & Carmel, L. (2003). Visualization of Labeled Data Using Linear Transformations. In Proceedings of the Ninth Annual IEEE Conference on Information Visualization (pp. 121–128). Washington, DC, USA: IEEE Computer Society.
+
+Cited in Blood Journal (doi:10.1182), American College of Surgeons Clinical Congress (poster), Science Translational Medicine (doi: 10.1126/scitranslmed.aaa5993):
+
+Sweeney, T. E., Shidham, A., Wong, H. R., & Khatri, P. (2015). A comprehensive time-course–based    multicohort analysis of sepsis and sterile inflammation reveals a robust diagnostic gene set.   Science Translational Medicine, 7(287), 287ra71.
+Sweeney TE, Shidham A, Khatri P. “Gene expression can robustly separate infectious and non-infectious   inflammation”. American College of Surgeons Clinical Congress, 2014.

@@ -1,10 +1,10 @@
 Package: rpac
 Namespace: rpac
 Type: Package
-Title: What the package does (short line)
+Title: R package for performing labelled PCA (lPCA) 
 Version: 1.0
 Date: 2014-04-15
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Aaditya Shidham 
+Maintainer: aashidham@gmail.com 
+Description: If you have a labelled high-dimensional dataset, use this package to see if it is seperable at all. Run lPCA on such data to plot a weighted version of PCA and see whether the data is visually seperable in the first place. 
+License: GNU GPLv3 
